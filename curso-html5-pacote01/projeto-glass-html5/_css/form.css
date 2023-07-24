@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+input, textarea{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
+
+legend {
+    color: #0000;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border-color: #cecece;
+    margin: 20px;
+}
+
+fieldset#sexo {
+    width: 150px;
+}
+
+fieldset#usuario {
+    background: url(/curso-html5-pacote01/projeto-glass-html5/_imagens/icone-contato.png) no-repeat 95% 95%;
+}
+
+fieldset#endereco {
+    background: url(/curso-html5-pacote01/projeto-glass-html5/_imagens/icone-endereco.png) 95% 95%;
+}
+
+fieldset#mensagem {
+    background: url(/curso-html5-pacote01/projeto-glass-html5/_imagens/icone-mensagem.png) 95% 95%;
+}
+
+fieldset#pedido {
+    background: url(/curso-html5-pacote01/projeto-glass-html5/_imagens/icone-pagamento.png) 95% 95%;
+}
